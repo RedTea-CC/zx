@@ -10,10 +10,10 @@ import 'virtual:svg-icons-register'
 import gloalComponent from '@/components/index'
 import '@/styles/index.scss'
 
-const app = createApp(App)  
+const app = createApp(App)
 
-app.use(ElementPlus,{
-    locale:zhCn
+app.use(ElementPlus, {
+  locale: zhCn,
 })
 //安装自定义插件
 app.use(gloalComponent)
